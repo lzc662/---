@@ -19,8 +19,6 @@ function getuserInfo() {
     getuserimg(res);
     getusername(res);
     // console.log(res);
-  }).finally(function (res) {
-    console.log(res);
   })
 }
 // 判断头像是否为空，空则显示默认头像
